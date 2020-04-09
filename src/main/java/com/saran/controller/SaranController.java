@@ -11,7 +11,7 @@ public class SaranController {
 	public String getMessage() {
 		return "Welcome to GitAWSCodeDeploy";
 	}
-	@GetMapping("/")
+	@GetMapping("/aws")
 	public String getAWS() {
 		return "Welcome to AWS";
 	}
